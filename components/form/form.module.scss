@@ -1,0 +1,40 @@
+.questionContainer {
+  width: 100%;
+  margin-top: 2rem;
+  .question {
+    font-size: 1.6rem;
+    color: var(--color-white);
+  }
+
+  .textarea {
+    margin-top: 0.2rem;
+    outline: none;
+    border: none;
+    padding: 0.6rem;
+    width: 100%;
+    background-color: #3b4877;
+    border-radius: 0.6rem;
+    resize: none;
+
+    font-family: inherit;
+
+    color: var(--color-white);
+
+    &::placeholder {
+      color: var(--color-white);
+      opacity: 0.4;
+    }
+  }
+}
+
+.title {
+  color: var(--color-white);
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: var(--color-white);
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,14 @@
+.button {
+  margin-top: 3.2rem;
+
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 100%;
+  background-color: var(--color-primary);
+  padding: 0.4rem 1rem;
+  color: var(--color-secondary);
+  font-size: 3rem;
+  font-weight: 700;
+  border-radius: 0.6rem;
+}
